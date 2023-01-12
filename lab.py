@@ -1,2 +1,6 @@
-a = ["","","","","","","","2"]
-print(sorted(a,reverse=True))
+a = set()
+a.add(1)
+a.add(2)
+a.add(3)
+a.add(4)
+print(a)
