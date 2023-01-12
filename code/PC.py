@@ -9,6 +9,7 @@ mapping = {
     "WXYZ": "9",
     "-": "-",
     "1": "1",
+    "0": "0"
 }
 
 #another way to do it
