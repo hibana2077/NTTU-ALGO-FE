@@ -1,6 +1,7 @@
-a = set()
-a.add(1)
-a.add(2)
-a.add(3)
-a.add(4)
-print(a)
+a_f = lambda x,y,z: x+y+z
+a_data = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+print(list(map(a_f, )))
