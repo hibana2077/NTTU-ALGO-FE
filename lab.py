@@ -1,4 +1,2 @@
-
-import os
-
-print(os.getcwd())
+a = ["","","","","","","","2"]
+print(sorted(a,reverse=True))
