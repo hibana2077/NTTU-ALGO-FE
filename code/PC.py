@@ -16,17 +16,6 @@ def sol2(in_str:str):return (sum(list(map(lambda x: x.isalpha(),in_str))),in_str
 
 while True:
     try:
-        input_str = input()
-        # alphabet_count = 0
-        # dash_count = 0
-        # for find in input_str:
-        #     alphabet_count+=1 if find.isalpha() else 0
-        #     dash_count+=1 if find=="-" else 0
-        #     print(sorted(list(map(lambda x: mapping[x] if find in x else "",mapping)),reverse=True)[0],end="")
-
-        # print(f" {alphabet_count} {dash_count}")
-        #sol2
-        out = sol2(input_str)
+        out = sol2(input())
         print(f"{out[2]} {out[0]} {out[1]}")
-    except EOFError:
-        break
+    except EOFError:break
