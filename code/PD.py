@@ -15,6 +15,10 @@
 
 #another solution
 
-for _ in range(int(input())):
-    n,arr = int(input()),list(map(int,input().split()))
-    print(sum([arr[i] >= arr[j] for i in range(n) for j in range(i)]))
+# for _ in range(int(input())):
+#     n,arr = int(input()),list(map(int,input().split()))
+#     print(sum([arr[i] >= arr[j] for i in range(n) for j in range(i)]))
+
+# one line solution
+
+# for _ in range(int(input())):print(sum(list(map(lambda arr:[arr[i] >= arr[j] for i in range(n) for j in range(i)]))
